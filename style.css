@@ -1,0 +1,33 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.clock-container {
+    text-align: center;
+}
+
+.clock {
+    font-size: 5rem;
+    font-weight: bold;
+    background: #262626;
+    padding: 20px 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgb(239, 255, 14);
+}
+
+.clock span {
+    color: #f1c40f;
+}
+
+.timezone {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #f1c40f;
+}
